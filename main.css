@@ -1,0 +1,131 @@
+body{
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+nav{
+    color: #b71c1c;
+    font-size: 20px;
+    padding: 1px 1px 1px 1px;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: palegoldenrod;
+    padding: 1px;
+}
+
+nav li a:hover{
+    color: #b71c1c;
+}
+
+nav#login{
+    float: right;
+    margin-right: 5px;
+    background-color: grey;
+}
+
+nav#login li{
+    vertical-align: middle;
+    padding: 1px 1px 1px 1px;
+}
+
+.panel{
+    width: 25%;
+    background-color: grey;
+    border: 2px dashed maroon;
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.picture{
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+button{
+    text-decoration: none;
+    color: palegoldenrod;
+    background-color: transparent;
+    border: 1px dashed #b71c1c;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #b71c1c;
+}
+
+#article{
+    width: 250px;
+    height: auto;
+    background-color: grey;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border: 2px dashed maroon;
+    margin-right: 2px;
+}
+
+footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: grey;
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer ul#bottom{
+    display: inline-block;
+    list-style: none;
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+footer a{
+    color: palegoldenrod;
+    text-decoration: none;
+}
+
+div.content{
+    display: flex;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: palegoldenrod;
+}
+
+h2{
+    font-family: fantasy;
+    color: #b71c1c;
+    text-align: center;
+}
+
+p{
+    font-family: fantasy;
+    color: brown;
+}
